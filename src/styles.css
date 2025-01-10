@@ -1,0 +1,92 @@
+:root {
+    --background-color: #1D1616;
+    --header-background-color: #3b353583;
+    --text-color: #EEEEEE;
+    --sec-text-color: #eeeeeea4;
+    --increase-btn-color: #024CAA;
+    --decrease-btn-color: #D84040;
+    --reset-btn-color: #EC8305;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Archivo", serif;
+    color: var(--text-color);
+}
+
+header {
+    text-align: center;
+    padding: 3.25em 1em;
+    background-color: var(--header-background-color);
+}
+
+#title {
+    margin-bottom: 0.25em;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+#semi-title {
+    font-size: 1.15rem;
+    color: var(--sec-text-color);
+}
+
+.counter-body {
+    text-align: center;
+    min-height: 400px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#magic-number {
+    font-size: 10rem;
+    font-weight: 900;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 2.65em;
+}
+
+.btn {
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--text-color);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#increment-btn {
+    background-color: var(--increase-btn-color);
+}
+
+#decrement-btn {
+    background-color: var(--decrease-btn-color);
+}
+
+#reset-btn {
+    background-color: var(--reset-btn-color);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
