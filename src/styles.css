@@ -22,7 +22,7 @@ body {
 
 header {
     text-align: center;
-    padding: 3.25em 1em;
+    padding: 3.25em 1.25em;
     background-color: var(--header-background-color);
 }
 
@@ -89,4 +89,34 @@ header {
 
 .btn:hover {
     opacity: 0.9;
+}
+
+/* media query */
+
+@media (max-width: 768px) {
+    #title {
+        font-size: 2rem;
+    }
+
+    #semi-title {
+        font-size: 1.05rem;
+    }
+
+    #magic-number {
+        font-size: 8rem;
+    }
+    
+    .counter-body {
+        min-height: 270px;
+    }
+
+    .buttons {
+        gap: 8px;
+        margin-top: 1.75em;
+    }
+
+    .btn {
+        font-size: 1.0125rem;
+    }
+    
 }
