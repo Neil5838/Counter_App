@@ -1,5 +1,5 @@
 :root {
-    --background-color: #1D1616;
+    --background-color: #262626;
     --header-background-color: #3b353583;
     --text-color: #EEEEEE;
     --sec-text-color: #eeeeeea4;
@@ -107,16 +107,12 @@ header {
     }
     
     .counter-body {
-        min-height: 270px;
+        min-height: 300px;
     }
 
     .buttons {
-        gap: 8px;
-        margin-top: 1.75em;
-    }
-
-    .btn {
-        font-size: 1.0125rem;
+        gap: 16px;
+        margin-top: 2.5em;
     }
     
 }
